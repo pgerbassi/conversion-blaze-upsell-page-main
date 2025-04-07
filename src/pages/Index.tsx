@@ -47,7 +47,7 @@ const Index = () => {
         {/* Heading */}
         <h1 
           ref={headingRef}
-          className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-center tracking-tight opacity-0 transform translate-y-4 transition-all duration-700 letter-animation"
+          className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-center tracking-tight opacity-0 transform translate-y-4 transition-all duration-700 letter-animation"
         >
           <span className="shimmer-text text-border">Você deu um passo importante... Agora é hora de ir além!</span>
         </h1>
