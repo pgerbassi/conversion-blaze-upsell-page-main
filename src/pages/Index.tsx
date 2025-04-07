@@ -25,7 +25,7 @@ const Index = () => {
   const handleCtaClick = () => {
     // You can add your conversion tracking or checkout link here
     console.log("CTA clicked!");
-    window.open("https://your-checkout-url.com", "_blank");
+    window.open("https://pay.hotmart.com/D96966130K", "_blank");
   };
 
   const splitTextIntoSpans = (text) => {
@@ -49,7 +49,7 @@ const Index = () => {
           ref={headingRef}
           className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-center tracking-tight opacity-0 transform translate-y-4 transition-all duration-700 letter-animation"
         >
-          <span className="shimmer-text text-border">Você deu um passo importante... Agora é hora de ir além!</span>
+          <span className="shimmer-text text-border">Sua compra ainda não acabou, veja o vídeo para entender melhor</span>
         </h1>
 
         {/* Subheading */}
@@ -57,7 +57,7 @@ const Index = () => {
           ref={subheadingRef}
           className="text-lg md:text-xl lg:text-2xl text-blue-200 text-center max-w-3xl opacity-0 transform translate-y-4 transition-all duration-700 font-light reveal-text"
         >
-          Conheça nosso curso <span className=" text-white text-border">Formação Hiperpoliglota</span> e aproveite essa oferta exclusiva para alunos e acelere ainda mais seus resultados.
+          <span className=" text-white text-border"></span>
         </p>
 
         {/* Video */}
@@ -87,7 +87,7 @@ const Index = () => {
           >
             Entenda agora!
           </button>
-          <p className="text-blue-200 mt-4 text-center text-sm font-medium">Oferta Limitada - <span className="font-bold text-white">Apenas Hoje!</span></p>
+          <p className="text-blue-200 mt-4 text-center text-sm font-medium"><span className="font-bold text-white"></span></p>
         </div>
       </div>
 
