@@ -93,7 +93,6 @@ const Index = () => {
 
       {/* Decorative elements */}
       <div className="absolute bottom-4 sm:bottom-8 text-center w-full text-blue-300/60 text-xs">
-        + 100 Alunos assinados.
       </div>
     </div>
   );
