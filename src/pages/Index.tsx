@@ -49,7 +49,7 @@ const Index = () => {
           ref={headingRef}
           className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-center tracking-tight opacity-0 transform translate-y-4 transition-all duration-700 letter-animation"
         >
-          <span className="shimmer-text text-border">Sua compra ainda não acabou, veja o vídeo para entender melhor</span>
+          <span className="shimmer-text bg-white text-border">Sua compra ainda não acabou, veja o vídeo para entender melhor</span>
         </h1>
 
         {/* Subheading */}
